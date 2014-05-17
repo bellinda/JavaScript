@@ -1,0 +1,19 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title></title>
+    <link href="additionalStyles.css" rel="stylesheet" type="text/css" />
+    <link href="js-console.css" rel="stylesheet" type="text/css" />
+    <script src="findOccurancesOfWord.js" type="text/javascript"></script>
+</head>
+<body>
+    <h3>My text for trying is the following:</h3>
+    <p>Today is not the best day of my life, but I can say that it could not be the worst, too. The day of today is for rest. But TODAY I should say "I'll do it today"</p>
+    <p><i>Comments: You can try to find the word "today" for example, changing the arguments of the findOccuranceOfWord() {they can be 'caseSensitive' or 'caseInsensitive'} to see that it works both ways correctly!</i></p>
+    <input type="text" id="word" placeholder="Enter a word"/>
+    <button onclick="return findOccurancesOfWord('caseInsensitive');">Evaluate</button>
+    <div id="console">
+	</div>
+    <script src="js-console.js" type="text/javascript"></script>
+</body>
+</html>
